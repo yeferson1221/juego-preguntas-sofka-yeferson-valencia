@@ -6,7 +6,6 @@ class Question {
       this.ResCorrecta = ResCorrecta;
     }
   
-   
     correctAnswer(opciones) {
       if (opciones === this.ResCorrecta) {
         return true
